@@ -1,0 +1,10 @@
+cryptotracker-pro/
+├── index.html          # Página principal
+├── styles.css          # Estilos CSS
+├── script.js           # Lógica principal (API y eventos)
+├── chart.js            # Configuración de gráficos
+├── assets/             # Imágenes e íconos
+│   └── icons/          # Logo y favicons
+├── Dockerfile          # Configuración de Docker
+├── service-worker.js   # PWA (caché offline)
+└── README.md           # Este archivo

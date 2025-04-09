@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CryptoTracker Pro</title>
+
+  <!-- Chart.js desde CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.0"></script>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Favicons -->
+  <link rel="icon" href="assets/icons/favicon.png" />
+  <link rel="icon" type="image/png" href="assets/icons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link rel="shortcut icon" href="assets/icons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/icons/site.webmanifest" />
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <img src="assets/icons/favicon.svg" alt="CryptoTracker Logo" id="logo" />
+    <h1>CryptoTracker Pro</h1>
+    <input type="text" id="searchInput" placeholder="Buscar criptomoneda..." />
+    <p id="infoNotice">⚠️ Solo información actualizada cada 24 horas.</p>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <section id="cryptoList"></section>
+    <canvas id="priceChart"></canvas>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    Creado por L0rDB0t 🚀
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>

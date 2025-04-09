@@ -1,0 +1,143 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #e2e8f0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1e293b;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #334155; /* Línea decorativa */
+}
+
+header img {
+  width: 56px; /* Tamaño ligeramente aumentado */
+  height: 56px;
+}
+
+header h1 {
+  font-size: 1.75rem; /* Tamaño ligeramente aumentado */
+  margin: 0;
+  color: #e2e8f0;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: #334155;
+  color: #e2e8f0;
+  transition: background-color 0.3s ease;
+  width: 300px; /* Ajustar el ancho del campo de búsqueda */
+}
+
+input:focus {
+  background-color: #475569;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Efecto de enfoque */
+}
+
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.crypto-card {
+  background-color: #1e293b;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.crypto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.crypto-card img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.crypto-card h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.crypto-card p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+canvas {
+  margin-top: 2rem;
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1e293b;
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.crypto-info {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1e293b;
+  color: #e2e8f0;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.crypto-info h2 {
+  margin: 0 0 1rem;
+}
+
+.crypto-info button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #334155;
+  color: #e2e8f0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.crypto-info button:hover {
+  background-color: #475569;
+}
+#infoNotice {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-top: 0.5rem;
+  text-align: center;
+}
