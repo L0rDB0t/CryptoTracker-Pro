@@ -33,7 +33,7 @@ HTML5 + CSS3 (Flexbox/Grid)
 bash
 Copy
 # Clona el repositorio
-git clone https://github.com/tu-usuario/cryptotracker-pro.git
+git clone https://github.com/L0rDB0t/cryptotracker-pro.git
 cd cryptotracker-pro
 
 # Construye la imagen Docker
