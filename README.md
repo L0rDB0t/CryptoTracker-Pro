@@ -41,7 +41,7 @@ docker build -t crypto-tracker .
 
 # Ejecuta el contenedor
 docker run -d -p 80:80 crypto-tracker
-✨ Listo! Accede en: http://localhost
+✨ Listo! Accede en: [http://localhost](http://127.0.0.1:5500/index.html)
 
 📊 Funcionamiento del código
 index.html: Estructura base con <canvas> para gráficos.
